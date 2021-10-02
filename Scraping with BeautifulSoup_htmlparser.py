@@ -8,5 +8,4 @@ def scrap():
     soup = BeautifulSoup(contents, 'html.parser')
     return (soup.find_all('a'))
 
-
 print(scrap())
